@@ -1723,6 +1723,10 @@ article:last-child {
   margin-bottom: 0;
 }
 
+.skillsPics {
+  width: 100px;
+}
+
 /* Image */
 
 .image {
@@ -1997,6 +2001,10 @@ ul.social li a.fa-vimeo {
   background-color: #4c8ab0;
 }
 
+ul.social li a.fa-file-pdf {
+  background-color: #bf2e25;
+}
+
 ul.social li a:hover {
   top: -5px;
 }
@@ -2042,6 +2050,10 @@ ul.actions li:first-child {
 
 .box.style2 h3 {
   margin-bottom: 0.25em;
+}
+
+.box.style2:hover {
+  box-shadow: -1em 0 0.4em #43b3e0;
 }
 
 .box.style2 .image {
@@ -2126,7 +2138,7 @@ ul.actions li:first-child {
 
 .wrapper.style4 {
   background-color: #303030;
-  color: #999;
+  color: #43b3e0;
   text-shadow: -1px -1px 0px #181818;
 }
 
@@ -2192,7 +2204,7 @@ ul.actions li:first-child {
   outline: 0;
   font-weight: 600;
   border-radius: 8px;
-  color: #fff;
+  color: #43b3e0;
   height: 2.5em;
   line-height: 2.5em;
   padding: 0 1.25em;
@@ -2568,4 +2580,19 @@ body > article {
   #copyright li:first-child {
     margin-top: 0;
   }
+}
+
+/* MY CUSTOM CSS */
+.flexxy {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.skill-margin {
+  margin: 20px;
+  /* text-align: center; */
+}
+.pic-movement {
+  transition: width 2s, height 4s;
 }
